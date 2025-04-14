@@ -11,7 +11,7 @@ def line():
     print ("\n" "Para la siguiente ecuación:" "\n" + "\t" + "Y =" + " " + str(coef_a) + "X + " + str(coef_b))
     y1 = (coef_a * coef_x1 + coef_b)
     y2 = (coef_a * coef_x2 + coef_b)
-    print("\n" "Dados los siguientes puntos:" "\n" + "\t" + "P1(" + str(coef_x1) + ", " + str(y1) + ")" "\n" + "\t" + "P2(" + str(coef_x2) + ", " + str(y2) + ")")
+    print("\n" "Dados los siguientes puntos:" "\n" + "\t" + "P1 (" + str(coef_x1) + ", " + str(y1) + ")" "\n" + "\t" + "P2(" + str(coef_x2) + ", " + str(y2) + ")")
     P1=(coef_x1, y1)
     P2=(coef_x2, y2)
     distancia= math.dist(P1, P2)
